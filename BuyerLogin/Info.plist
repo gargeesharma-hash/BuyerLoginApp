@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app requires access to your current location to provide location-based services i.e. fetching Cabs and Products listing.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SF-Pro-Text-Bold.otf</string>
+		<string>SFProText-Semibold.ttf</string>
+		<string>SFProText-Regular.ttf</string>
+		<string>SF-Pro-Text-Medium.otf</string>
+		<string>SFPRODISPLAYBOLD.ttf</string>
+		<string>SFPRODISPLAYMEDIUM.ttf</string>
+		<string>SFPRODISPLAYREGULAR.ttf</string>
+		<string>SFPRODISPLAYSEMIBOLD.ttf</string>
+	</array>
+</dict>
+</plist>

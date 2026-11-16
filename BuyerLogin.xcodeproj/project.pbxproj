@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001 /* AppDelegate.swift */; };
+		B10000000000000000000002 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* LoginViewController.swift */; };
+		B10000000000000000000003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C10000000000000000000001 /* Main.storyboard */; };
+		B10000000000000000000004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C10000000000000000000002 /* LaunchScreen.storyboard */; };
+		B10000000000000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* Assets.xcassets */; };
+		FC20215C63F38C8C8A9D62E3 /* Pods_BuyerLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944AC9D8572B8A687FEEA24D /* Pods_BuyerLogin.framework */; };
+		B10000000000000000000010 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* Extensions.swift */; };
+		B10000000000000000000011 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* SF-Pro-Text-Bold.otf */; };
+		B10000000000000000000012 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* SF-Pro-Text-Medium.otf */; };
+		B10000000000000000000013 /* SFPRODISPLAYBOLD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* SFPRODISPLAYBOLD.ttf */; };
+		B10000000000000000000014 /* SFPRODISPLAYMEDIUM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000014 /* SFPRODISPLAYMEDIUM.ttf */; };
+		B10000000000000000000015 /* SFPRODISPLAYREGULAR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015 /* SFPRODISPLAYREGULAR.ttf */; };
+		B10000000000000000000016 /* SFPRODISPLAYSEMIBOLD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016 /* SFPRODISPLAYSEMIBOLD.ttf */; };
+		B10000000000000000000017 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000017 /* SFProText-Regular.ttf */; };
+		B10000000000000000000018 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* SFProText-Semibold.ttf */; };
+		B10000000000000000000041 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000041 /* APIService.swift */; };
+		B10000000000000000000042 /* OTPFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000042 /* OTPFieldView.swift */; };
+		B10000000000000000000043 /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000043 /* OTPTextField.swift */; };
+		B10000000000000000000044 /* ServerConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000044 /* ServerConfig.plist */; };
+		B10000000000000000000050 /* LandingPageNewVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000050 /* LandingPageNewVc.swift */; };
+		B10000000000000000000051 /* HomeTabCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000051 /* HomeTabCVC.swift */; };
+		B10000000000000000000052 /* VerticalsStoreListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000052 /* VerticalsStoreListCVC.swift */; };
+		B10000000000000000000053 /* PowerDealsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000053 /* PowerDealsCVC.swift */; };
+		B10000000000000000000060 /* HomeDiscountsListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000060 /* HomeDiscountsListTVC.swift */; };
+		B10000000000000000000061 /* HomeDiscountsListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000061 /* HomeDiscountsListTVC.xib */; };
+		B10000000000000000000062 /* HomeDealOfDayCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000062 /* HomeDealOfDayCVC.swift */; };
+		B10000000000000000000063 /* HomeDealOfDayCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000063 /* HomeDealOfDayCVC.xib */; };
+		B10000000000000000000064 /* NearbyHomeDiscountListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000064 /* NearbyHomeDiscountListCVC.swift */; };
+		B10000000000000000000065 /* NearbyHomeDiscountListCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000065 /* NearbyHomeDiscountListCVC.xib */; };
+		B10000000000000000000066 /* HomeCouponForYouCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000066 /* HomeCouponForYouCVC.swift */; };
+		B10000000000000000000067 /* HomeCouponForYouCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000067 /* HomeCouponForYouCVC.xib */; };
+		B10000000000000000000068 /* AllDiscountsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000068 /* AllDiscountsTVC.swift */; };
+		B10000000000000000000069 /* AllDiscountsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000069 /* AllDiscountsTVC.xib */; };
+		B10000000000000000000070 /* DiscountListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000070 /* DiscountListModel.swift */; };
+		B10000000000000000000080 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000080 /* Logger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		944AC9D8572B8A687FEEA24D /* Pods_BuyerLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuyerLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10000000000000000000002 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A10000000000000000000003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A10000000000000000000004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A10000000000000000000005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A100000000000000000000FF /* BuyerLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuyerLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B507080F9E36CD681221E2B8 /* Pods-BuyerLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyerLogin.debug.xcconfig"; path = "Target Support Files/Pods-BuyerLogin/Pods-BuyerLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		B88E6682CDC78708C56B31EF /* Pods-BuyerLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuyerLogin.release.xcconfig"; path = "Target Support Files/Pods-BuyerLogin/Pods-BuyerLogin.release.xcconfig"; sourceTree = "<group>"; };
+		A10000000000000000000010 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A10000000000000000000011 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		A10000000000000000000012 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		A10000000000000000000013 /* SFPRODISPLAYBOLD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYBOLD.ttf; sourceTree = "<group>"; };
+		A10000000000000000000014 /* SFPRODISPLAYMEDIUM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYMEDIUM.ttf; sourceTree = "<group>"; };
+		A10000000000000000000015 /* SFPRODISPLAYREGULAR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYREGULAR.ttf; sourceTree = "<group>"; };
+		A10000000000000000000016 /* SFPRODISPLAYSEMIBOLD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFPRODISPLAYSEMIBOLD.ttf; sourceTree = "<group>"; };
+		A10000000000000000000017 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Regular.ttf"; sourceTree = "<group>"; };
+		A10000000000000000000018 /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Semibold.ttf"; sourceTree = "<group>"; };
+		A10000000000000000000099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000041 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A10000000000000000000042 /* OTPFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPFieldView.swift; sourceTree = "<group>"; };
+		A10000000000000000000043 /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		A10000000000000000000044 /* ServerConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ServerConfig.plist; sourceTree = "<group>"; };
+		A10000000000000000000045 /* ServerConfig.example.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ServerConfig.example.plist; sourceTree = "<group>"; };
+		A10000000000000000000050 /* LandingPageNewVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageNewVc.swift; sourceTree = "<group>"; };
+		A10000000000000000000051 /* HomeTabCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabCVC.swift; sourceTree = "<group>"; };
+		A10000000000000000000052 /* VerticalsStoreListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalsStoreListCVC.swift; sourceTree = "<group>"; };
+		A10000000000000000000053 /* PowerDealsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerDealsCVC.swift; sourceTree = "<group>"; };
+		A10000000000000000000060 /* HomeDiscountsListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDiscountsListTVC.swift; sourceTree = "<group>"; };
+		A10000000000000000000061 /* HomeDiscountsListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeDiscountsListTVC.xib; sourceTree = "<group>"; };
+		A10000000000000000000062 /* HomeDealOfDayCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDealOfDayCVC.swift; sourceTree = "<group>"; };
+		A10000000000000000000063 /* HomeDealOfDayCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeDealOfDayCVC.xib; sourceTree = "<group>"; };
+		A10000000000000000000064 /* NearbyHomeDiscountListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyHomeDiscountListCVC.swift; sourceTree = "<group>"; };
+		A10000000000000000000065 /* NearbyHomeDiscountListCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NearbyHomeDiscountListCVC.xib; sourceTree = "<group>"; };
+		A10000000000000000000066 /* HomeCouponForYouCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCouponForYouCVC.swift; sourceTree = "<group>"; };
+		A10000000000000000000067 /* HomeCouponForYouCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCouponForYouCVC.xib; sourceTree = "<group>"; };
+		A10000000000000000000068 /* AllDiscountsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDiscountsTVC.swift; sourceTree = "<group>"; };
+		A10000000000000000000069 /* AllDiscountsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllDiscountsTVC.xib; sourceTree = "<group>"; };
+		A10000000000000000000070 /* DiscountListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountListModel.swift; sourceTree = "<group>"; };
+		A10000000000000000000080 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E10000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC20215C63F38C8C8A9D62E3 /* Pods_BuyerLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		934C5F46D64545470AAB84C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B507080F9E36CD681221E2B8 /* Pods-BuyerLogin.debug.xcconfig */,
+				B88E6682CDC78708C56B31EF /* Pods-BuyerLogin.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000002 /* BuyerLogin */,
+				D10000000000000000000006 /* Products */,
+				934C5F46D64545470AAB84C8 /* Pods */,
+				F44F9FC3EDD8034F0C4CF224 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D10000000000000000000002 /* BuyerLogin */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000001 /* AppDelegate.swift */,
+				A10000000000000000000099 /* Info.plist */,
+				A10000000000000000000044 /* ServerConfig.plist */,
+				A10000000000000000000045 /* ServerConfig.example.plist */,
+				D10000000000000000000009 /* Webservices */,
+				D10000000000000000000013 /* Model */,
+				D10000000000000000000007 /* Common */,
+				D10000000000000000000003 /* Controllers */,
+				D10000000000000000000008 /* Fonts */,
+				D10000000000000000000004 /* View */,
+				A10000000000000000000005 /* Assets.xcassets */,
+			);
+			path = BuyerLogin;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000003 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000011 /* HomeNew */,
+				A10000000000000000000050 /* LandingPageNewVc.swift */,
+				A10000000000000000000002 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000004 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000005 /* Storyboard */,
+				D10000000000000000000012 /* Discounts */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000005 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C10000000000000000000001 /* Main.storyboard */,
+				C10000000000000000000002 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A100000000000000000000FF /* BuyerLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44F9FC3EDD8034F0C4CF224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				944AC9D8572B8A687FEEA24D /* Pods_BuyerLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000007 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000010 /* Extensions.swift */,
+				A10000000000000000000080 /* Logger.swift */,
+				D10000000000000000000010 /* OTPField */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000008 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000011 /* SF-Pro-Text-Bold.otf */,
+				A10000000000000000000012 /* SF-Pro-Text-Medium.otf */,
+				A10000000000000000000013 /* SFPRODISPLAYBOLD.ttf */,
+				A10000000000000000000014 /* SFPRODISPLAYMEDIUM.ttf */,
+				A10000000000000000000015 /* SFPRODISPLAYREGULAR.ttf */,
+				A10000000000000000000016 /* SFPRODISPLAYSEMIBOLD.ttf */,
+				A10000000000000000000017 /* SFProText-Regular.ttf */,
+				A10000000000000000000018 /* SFProText-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000009 /* Webservices */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000041 /* APIService.swift */,
+			);
+			path = Webservices;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000010 /* OTPField */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000042 /* OTPFieldView.swift */,
+				A10000000000000000000043 /* OTPTextField.swift */,
+			);
+			path = OTPField;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000011 /* HomeNew */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000051 /* HomeTabCVC.swift */,
+				A10000000000000000000052 /* VerticalsStoreListCVC.swift */,
+				A10000000000000000000053 /* PowerDealsCVC.swift */,
+			);
+			path = HomeNew;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000012 /* Discounts */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000060 /* HomeDiscountsListTVC.swift */,
+				A10000000000000000000061 /* HomeDiscountsListTVC.xib */,
+				A10000000000000000000062 /* HomeDealOfDayCVC.swift */,
+				A10000000000000000000063 /* HomeDealOfDayCVC.xib */,
+				A10000000000000000000064 /* NearbyHomeDiscountListCVC.swift */,
+				A10000000000000000000065 /* NearbyHomeDiscountListCVC.xib */,
+				A10000000000000000000066 /* HomeCouponForYouCVC.swift */,
+				A10000000000000000000067 /* HomeCouponForYouCVC.xib */,
+				A10000000000000000000068 /* AllDiscountsTVC.swift */,
+				A10000000000000000000069 /* AllDiscountsTVC.xib */,
+			);
+			path = Discounts;
+			sourceTree = "<group>";
+		};
+		D10000000000000000000013 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000070 /* DiscountListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10000000000000000000001 /* BuyerLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910000000000000000000003 /* Build configuration list for PBXNativeTarget "BuyerLogin" */;
+			buildPhases = (
+				3208D5EDDD77D6E914A04C7F /* [CP] Check Pods Manifest.lock */,
+				E10000000000000000000001 /* Sources */,
+				E10000000000000000000002 /* Frameworks */,
+				E10000000000000000000003 /* Resources */,
+				613F3DC49200F038A0FB760A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuyerLogin;
+			productName = BuyerLogin;
+			productReference = A100000000000000000000FF /* BuyerLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					F10000000000000000000001 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 910000000000000000000001 /* Build configuration list for PBXProject "BuyerLogin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10000000000000000000001;
+			productRefGroup = D10000000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10000000000000000000001 /* BuyerLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000004 /* LaunchScreen.storyboard in Resources */,
+				B10000000000000000000005 /* Assets.xcassets in Resources */,
+				B10000000000000000000003 /* Main.storyboard in Resources */,
+				B10000000000000000000069 /* AllDiscountsTVC.xib in Resources */,
+				B10000000000000000000067 /* HomeCouponForYouCVC.xib in Resources */,
+				B10000000000000000000065 /* NearbyHomeDiscountListCVC.xib in Resources */,
+				B10000000000000000000063 /* HomeDealOfDayCVC.xib in Resources */,
+				B10000000000000000000061 /* HomeDiscountsListTVC.xib in Resources */,
+				B10000000000000000000044 /* ServerConfig.plist in Resources */,
+				B10000000000000000000011 /* SF-Pro-Text-Bold.otf in Resources */,
+				B10000000000000000000012 /* SF-Pro-Text-Medium.otf in Resources */,
+				B10000000000000000000013 /* SFPRODISPLAYBOLD.ttf in Resources */,
+				B10000000000000000000014 /* SFPRODISPLAYMEDIUM.ttf in Resources */,
+				B10000000000000000000015 /* SFPRODISPLAYREGULAR.ttf in Resources */,
+				B10000000000000000000016 /* SFPRODISPLAYSEMIBOLD.ttf in Resources */,
+				B10000000000000000000017 /* SFProText-Regular.ttf in Resources */,
+				B10000000000000000000018 /* SFProText-Semibold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3208D5EDDD77D6E914A04C7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuyerLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		613F3DC49200F038A0FB760A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuyerLogin/Pods-BuyerLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuyerLogin/Pods-BuyerLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuyerLogin/Pods-BuyerLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000002 /* LoginViewController.swift in Sources */,
+				B10000000000000000000001 /* AppDelegate.swift in Sources */,
+				B10000000000000000000080 /* Logger.swift in Sources */,
+				B10000000000000000000070 /* DiscountListModel.swift in Sources */,
+				B10000000000000000000068 /* AllDiscountsTVC.swift in Sources */,
+				B10000000000000000000066 /* HomeCouponForYouCVC.swift in Sources */,
+				B10000000000000000000064 /* NearbyHomeDiscountListCVC.swift in Sources */,
+				B10000000000000000000062 /* HomeDealOfDayCVC.swift in Sources */,
+				B10000000000000000000060 /* HomeDiscountsListTVC.swift in Sources */,
+				B10000000000000000000053 /* PowerDealsCVC.swift in Sources */,
+				B10000000000000000000052 /* VerticalsStoreListCVC.swift in Sources */,
+				B10000000000000000000051 /* HomeTabCVC.swift in Sources */,
+				B10000000000000000000050 /* LandingPageNewVc.swift in Sources */,
+				B10000000000000000000043 /* OTPTextField.swift in Sources */,
+				B10000000000000000000042 /* OTPFieldView.swift in Sources */,
+				B10000000000000000000041 /* APIService.swift in Sources */,
+				B10000000000000000000010 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C10000000000000000000001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10000000000000000000003 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C10000000000000000000002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10000000000000000000004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		920000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		920000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		920000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B507080F9E36CD681221E2B8 /* Pods-BuyerLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 978J865NW3;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BuyerLogin/Info.plist;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.BuyerLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		920000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88E6682CDC78708C56B31EF /* Pods-BuyerLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 978J865NW3;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BuyerLogin/Info.plist;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.BuyerLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910000000000000000000001 /* Build configuration list for PBXProject "BuyerLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920000000000000000000001 /* Debug */,
+				920000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910000000000000000000003 /* Build configuration list for PBXNativeTarget "BuyerLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920000000000000000000003 /* Debug */,
+				920000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F20000000000000000000001 /* Project object */;
+}

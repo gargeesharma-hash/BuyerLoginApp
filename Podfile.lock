@@ -1,0 +1,30 @@
+PODS:
+  - CountryPickerView (3.3.0)
+  - FTIndicator (1.2.9):
+    - FTIndicator/FTNotificationIndicator (= 1.2.9)
+    - FTIndicator/FTProgressIndicator (= 1.2.9)
+    - FTIndicator/FTToastIndicator (= 1.2.9)
+  - FTIndicator/FTNotificationIndicator (1.2.9)
+  - FTIndicator/FTProgressIndicator (1.2.9)
+  - FTIndicator/FTToastIndicator (1.2.9)
+  - Kingfisher (8.12.0)
+
+DEPENDENCIES:
+  - CountryPickerView
+  - FTIndicator
+  - Kingfisher
+
+SPEC REPOS:
+  trunk:
+    - CountryPickerView
+    - FTIndicator
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  CountryPickerView: 6322ada32a80b0cd721b0267282a5c24f406f263
+  FTIndicator: f7f071fd159e5befa1d040a9ef2e3ab53fa9322c
+  Kingfisher: 64e06c7d1a9851ecff9d1b14f92ad01141263dae
+
+PODFILE CHECKSUM: e2d2102cba6aff93947172f97ee4675d15d39ef3
+
+COCOAPODS: 1.17.0

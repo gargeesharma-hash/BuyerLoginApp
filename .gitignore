@@ -1,0 +1,18 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# CocoaPods (re-create with `pod install`)
+Pods/
+
+# macOS
+.DS_Store
+
+# Secrets
+*.p8
+GoogleService-Info.plist
+
+# Office server address and key (never push to GitHub)
+BuyerLogin/ServerConfig.plist
